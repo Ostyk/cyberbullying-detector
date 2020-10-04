@@ -11,12 +11,12 @@ class KimCNN(nn.Module):
         C = class_num
         Co = kernel_num
         Ks = kernel_sizes
-        
+
         self.static = static
         self.embed = nn.Embedding(V, D)
         self.convs1 = nn.ModuleList([nn.Conv2d(1, Co, (K, D)) for K in Ks])
         self.dropout = nn.Dropout(dropout)
-        self.fc1 = nn.Linear(len(Ks) * Co, 1)
+        self.fc1 = nn.Linear(len(Ks) * Co, C)
         self.sigmoid = nn.Sigmoid()
         self.softmax = nn.Softmax(dim=1)
 
