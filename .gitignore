@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+roberta_base_transformers/
 
 # Distribution / packaging
 .Python
@@ -127,3 +128,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.DS_Store
+app/
