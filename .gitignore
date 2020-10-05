@@ -5,7 +5,7 @@ __pycache__/
 data/
 # C extensions
 *.so
-roberta_base_transformers/
+models/roberta_base_transformers/
 
 # Distribution / packaging
 .Python
