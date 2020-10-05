@@ -43,3 +43,12 @@ def generate_batch_data(x, y, batch_size):
         yield x[i + batch_size :], y[i + batch_size :], batch + 1
     if batch == 0:
         yield x, y, 1
+        
+def load_trained_model(net, model_path, device):
+    net.load_state_dict(
+            torch.load(model_path, map_location=device))
+    print("[*] Loaded weights from {}".format(model_path))
+        
+    net = net.to(device)
+    net.eval()
+    return net
