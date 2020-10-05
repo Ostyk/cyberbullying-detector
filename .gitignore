@@ -6,7 +6,7 @@ data/
 # C extensions
 *.so
 models/roberta_base_transformers/
-
+SotrenderApp/nbs/*
 # Distribution / packaging
 .Python
 build/
