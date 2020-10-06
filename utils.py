@@ -89,6 +89,7 @@ def clean_tweet(tweet):
     entry.urls()
     entry.handle()
     entry.hashtag()
+    entry.emojis()
     entry.tolowercase()
     return entry.sentence
 
