@@ -1,0 +1,67 @@
+.
+├── README.md
+├── SotrenderApp
+│   ├── Dockerfile
+│   ├── Pipfile
+│   ├── Pipfile.lock
+│   ├── conf
+│   │   └── jupyter.py
+│   ├── nbs
+│   │   ├── data
+│   │   │   └── test
+│   │   │       ├── evaulate2.pl
+│   │   │       ├── test_set_only_tags.txt
+│   │   │       └── test_set_only_text.txt
+│   │   ├── model.py
+│   │   ├── models
+│   │   │   ├── emb_roberta_kimcnn.pth
+│   │   │   ├── finalized_model.pkl
+│   │   │   └── roberta_base_transformers
+│   │   │       ├── config.json
+│   │   │       ├── merges.txt
+│   │   │       ├── pytorch_model.bin
+│   │   │       └── vocab.json
+│   │   ├── polishbert.py
+│   │   ├── test.ipynb
+│   │   └── utils.py
+│   ├── requirements.txt
+│   └── scripts
+│       ├── d_bnr.sh
+│       ├── d_build.sh
+│       ├── d_run.sh
+│       ├── entrypoint.sh
+│       └── push.sh
+├── data
+│   ├── polish.stopwords.txt
+│   ├── test
+│   │   ├── evaulate2.pl
+│   │   ├── test_set_only_tags.txt
+│   │   └── test_set_only_text.txt
+│   └── train
+│       ├── training_set_clean_only_tags.txt
+│       └── training_set_clean_only_text.txt
+├── docs
+│   ├── Hate\ PolEval\ -\ assignment.pdf
+│   ├── Learning\ Deep\ on\ Cyberbullying\ is\ Always\ Better\ Than\ Brute\ Force.pdf
+│   ├── leaderboard.png
+│   └── training_data.png
+├── main.ipynb
+├── main_baseline.ipynb
+├── model.py
+├── models
+│   ├── emb_roberta_kimcnn.pth
+│   ├── finalized_model.pkl
+│   └── roberta_base_transformers
+│       ├── config.json
+│       ├── merges.txt
+│       ├── pytorch_model.bin
+│       └── vocab.json
+├── polishbert.py
+├── requirements.txt
+├── test.ipynb
+├── test.txt
+├── test_baseline.ipynb
+├── treeMD.py
+└── utils.py
+
+14 directories, 50 files
